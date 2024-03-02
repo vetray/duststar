@@ -1,0 +1,42 @@
+a {
+    color: yellowgreen;
+    text-align: center;
+}
+.saw {
+    color: red;
+}
+h1 {
+    text-align: center;
+    font-size: 250%;
+    border-bottom: 1px gray solid;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#abs {
+    color: green;
+}
+strong{
+    padding:inherit 10px 20px 20px 20px;
+}
+ol{
+    border-right: 1px solid gray;
+    width: 150px;
+    margin-top: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+@media(max-width:600px){
+    ol{
+        border-right:none;
+    }
+    h1{
+        border-bottom:none;
+    }
+    #grid {
+        grid-template-columns: none;
+    }
+}
